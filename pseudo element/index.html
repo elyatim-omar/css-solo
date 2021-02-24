@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style type = "text/css">
+  p.undereline:first-line { text-decoration: underline; }
+  p.noline:first-line { text-decoration: none; }
+ p.letter:first-letter { font-size: 5em; }
+         p.normal:first-letter { font-size: 10px; }
+</style>
+
+<body>
+
+  <p class = "noline">
+    This line would not have any underline because this belongs to nline class.
+ </p>
+ 
+ <p class="undereline">
+    The first line of this paragraph will be underlined as defined in the 
+    CSS rule above. Rest of the lines in this paragraph will remain normal. 
+    This example shows how to use :first-line pseduo element to give effect 
+    to the first line of any HTML element.
+ </p>
+<p class = "normal">
+         First character of this paragraph will be normal and will have font size 10 px;
+      </p>
+      
+      <p class="letter">
+         The first character of this paragraph will be 5em big as defined in the 
+         CSS rule above. Rest of the characters in this paragraph will remain 
+         normal. This example shows how to use :first-letter pseduo element 
+         to give effect to the first characters  of any HTML element.
+      </p>
+</body>
+</html>
